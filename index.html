@@ -4,16 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header></header>
-    <main>
-      <!-- <img
-          class="image1"
-          src="./assets/images/"
+    <header class="header">
+      <div class="top-bar">
+        <img
+          id="icon-menu"
+          class="icon-menu"
+          src="./assets/images/icons/hamburger.svg"
           alt=""
-        /> -->
+        />
+        <img class="logo" src="./assets/images/logo.svg" alt="" />
+      </div>
+      <nav>
+        <ul id="menu" class="menu">
+          <li class="menu-item">
+            <a href="#" class="menu-link">About</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">Location</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">Careers</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link-cta">Get Scootin</a>
+          </li>
+        </ul>
+      </nav>
+      <img
+        class="image-hero"
+        src="./assets/images/images/home-hero-mobile.jpg"
+        alt=""
+      />
+      <div class="box-text">
+        <h2 class="title-header">Scooter sharing made simple</h2>
+        <p class="text-header">
+          Scoot takes the hassle out of urban mobility. Our bikes are placed in
+          convenient locations in each of our cities. Use our app to locate the
+          nearest bike, unlock it with a tap, and you’re away!
+        </p>
+        <a class="buttom">Get Scootin</a>
+        <img
+          class="arrow"
+          src="./assets/images/patterns/right-arrow.svg"
+          alt=""
+        />
+      </div>
+    </header>
+    <main>
+      <div class="features">
+        <div class="feature">
+          <img
+            src="assets/images/icons/locate.svg"
+            alt=""
+            class="feature-image"
+          />
+          <h2 class="feature-title">Locate with app</h2>
+          <p class="feature-text">
+            Use the app to find the nearest scooter to you. We are continuously
+            placing scooters in the areas with most demand, so one should never
+            be too far away.
+          </p>
+        </div>
+        <div class="feature">
+          <img
+            src="assets/images/icons/scooter.svg"
+            alt=""
+            class="feature-image"
+          />
+          <h2 class="feature-title">Pick your scooter</h2>
+          <p class="feature-text">
+            We show the most important info for the scooters closest to you. So
+            you know how much charge they have left and can see roughly how much
+            it will cost.
+          </p>
+        </div>
+        <div class="feature">
+          <img
+            src="assets/images/icons/ride.svg"
+            alt=""
+            class="feature-image"
+          />
+          <h2 class="feature-title">Enjoy the ride</h2>
+          <p class="feature-text">
+            Scan the QR code and the bike will unlock. Retract the cable lock,
+            put on a helmet, and you’re off! Always lock bikes away from
+            walkways and accessibility ramps.
+          </p>
+        </div>
+      </div>
     </main>
     <footer></footer>
     <script src="js/scripts.js"></script>
