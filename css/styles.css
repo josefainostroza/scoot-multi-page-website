@@ -149,3 +149,122 @@ body {
   gap: 48px;
   padding: 120px 32px;
 }
+
+.box-image{
+position: relative;
+}
+.features-image2{
+  width: 311px;
+  border-radius: 400px;
+}
+.features-arrow{
+  position: absolute;
+  width: 800px;
+  top: 220px;
+  rotate: 180deg;
+left: 32px;
+transform: scaleY(-1);
+}
+.title-box2{
+  font-family: 'Space Mono';
+  font-size: 32px;
+  text-align: center;
+  color: #495567;
+  line-height: 32px;
+  margin-top: 56px;
+}
+.text-box2{
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  text-align: center;
+  color: #939caa;
+  line-height: 25px;
+}
+.buttom-info{
+  background-color: #fcb72b;
+  width: 180px;
+  height: 53px;
+  color: #fff;
+  padding: 14px 44px;
+  font-family: 'Space Mono';
+  font-size: 15px;
+  margin-top: 32px;
+
+}
+.feature-box2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 32px 120px 32px;
+}
+.features-arrow-right{
+  position: absolute;
+  width: 800px;
+  bottom: 173px;
+  right: 113px;
+}
+.features-arrow-rightUp{
+  position: absolute;
+  width: 800px;
+  top: 35px;
+  left: 130px;
+  rotate: 180deg;
+  transform: scaleY(-1);
+}
+.apss-logo{
+  width: 375px;
+  height: 320px;
+  background-color: #495567;
+  background-image: url("../assets/images/patterns/semi-circles.svg");
+  background-repeat: no-repeat;
+  
+}
+.textfooter{
+  font-family: 'Space Mono';
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  line-height: 32px;
+}
+.features-apps{
+  width: 114px;
+}
+.icons-apps{
+  display: flex;
+  justify-content: center;
+gap: 13px;
+}
+.apss-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 88px 32px;
+  gap: 40px;
+}
+.menu-footer{
+  font-family: 'Space Mono';
+  font-size: 15px;
+  color: #939CAA;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.aling-icons{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.footer{
+  height: 438px;
+  background-color: #333A44;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+}
